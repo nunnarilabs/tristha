@@ -8,7 +8,7 @@ Everything for today's 6-hour, fully hands-on session. Start with **`00_RUN_SHEE
 - **`task02_research/`** — `research_brief.md`.
 - **`task03_projects/`** — `EXERCISE.md` + project instructions, template CSV, severity defs, naming, sample story.
 - **`task04_artifacts/`** — `EXERCISE.md` + `defects_export.csv`.
-- **`task05_connectors/`** — `EXERCISE.md` + `gdrive_files_to_stage/` (upload to Drive first).
+- **`task05_connectors/`** — `EXERCISE.md` + `gdrive_files_to_stage/` (upload to Drive first). MCP connectors: [connect.composio.dev/mcp](https://connect.composio.dev/mcp)
 - **`task06_skills/`** — `EXERCISE.md` + `tristha-testcase/SKILL.md` (the custom skill to install).
 - **`task07_cowork/`** — `EXERCISE.md` + `specs/` (folder for Cowork to process).
 - **`task08_live_artifacts/`** — `EXERCISE.md`.
