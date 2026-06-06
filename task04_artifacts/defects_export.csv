@@ -1,0 +1,21 @@
+Defect ID,Module,Summary,Severity,Priority,Status,Found In,Assigned Team,Age (days)
+DEF_FT_001,Fund Transfer,Double debit when Confirm clicked twice within 2s,S1,P1,Open,SIT,Payments,4
+DEF_FT_002,Fund Transfer,Daily limit not enforced above 5L,S2,P1,In Progress,SIT,Payments,9
+DEF_FT_003,Fund Transfer,Confirmation SMS not sent on success,S3,P2,Open,SIT,Notifications,12
+DEF_CARD_001,Card Payments,Expired card not declined at POS,S1,P1,Open,SIT,Auth,3
+DEF_CARD_002,Card Payments,Wrong response code for insufficient funds (returns 05 not 51),S2,P2,In Progress,SIT,Auth,7
+DEF_CARD_003,Card Payments,Velocity limit allows 4th transaction,S2,P1,Open,SIT,Auth,2
+DEF_CARD_004,Card Payments,Amount field accepts negative value,S2,P2,Resolved,SIT,Auth,15
+DEF_UPI_001,UPI,Collect request not expiring after timeout,S2,P2,Open,UAT,UPI,5
+DEF_UPI_002,UPI,Duplicate UPI reference ID generated under load,S1,P1,In Progress,Perf,UPI,6
+DEF_UPI_003,UPI,QR amount mismatch not validated,S2,P2,Open,UAT,UPI,8
+DEF_UPI_004,UPI,Beneficiary name not shown before confirm,S3,P3,Open,UAT,UPI,11
+DEF_LOAN_001,Loans,EMI rounding off by 1 rupee on final installment,S3,P3,Open,SIT,Lending,20
+DEF_LOAN_002,Loans,Foreclosure charge calculated on wrong principal,S1,P1,Open,SIT,Lending,1
+DEF_LOAN_003,Loans,Interest accrual wrong for leap year,S2,P2,In Progress,SIT,Lending,14
+DEF_LOGIN_001,Authentication,OTP accepted after expiry window,S1,P1,Open,SIT,Security,2
+DEF_LOGIN_002,Authentication,Account not locked after 5 failed attempts,S2,P1,In Progress,SIT,Security,5
+DEF_LOGIN_003,Authentication,Password reset link reusable twice,S2,P2,Resolved,SIT,Security,18
+DEF_STMT_001,Statements,PDF statement missing closing balance,S3,P3,Open,UAT,Reporting,10
+DEF_STMT_002,Statements,Date filter off-by-one at month boundary,S3,P2,Open,UAT,Reporting,13
+DEF_STMT_003,Statements,Large statement export times out,S2,P2,Open,Perf,Reporting,7
