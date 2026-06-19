@@ -1,6 +1,6 @@
 # Task 5 — Connectors under a Project
 
-**Goal:** let Claude reach live systems — Google Drive, ClickUp, Gmail — from inside a Project,
+**Goal:** let Claude reach live systems — Google Drive, Jira, Gmail — from inside a Project,
 so it works from the source instead of pasted text.
 
 > Connectors are enabled in Settings → Connectors (Claude Desktop / claude.ai). For BFSI,
@@ -9,11 +9,11 @@ so it works from the source instead of pasted text.
 
 ## Setup (once)
 1. In your "Tristha Test Case Generator" Project, open **Connectors** and enable:
-   **Google Drive**, **ClickUp**, **Gmail**.
+   **Google Drive**, **Jira**, **Gmail**.
 2. Stage the sample content first:
    - Upload the two files in `gdrive_files_to_stage/` to a Google Drive folder named
      **"Tristha Demo Specs"**.
-   - In ClickUp, create a list **"Demo Defects"** and add 3–4 tasks (you can copy rows from
+   - In Jira, create a project **"Demo Defects"** and add 3–4 issues (you can copy rows from
      `../task04_artifacts/defects_export.csv`).
    - In Gmail, have a sample thread (or send yourself one) titled **"UAT Status — Demo Bank"**.
 
@@ -22,8 +22,8 @@ so it works from the source instead of pasted text.
 > test scenarios for it using our standard."
 → Claude fetches the file from Drive — no copy-paste.
 
-## Exercise B — ClickUp
-> "Look at the 'Demo Defects' list in ClickUp. Summarise by severity, flag any S1, and draft a
+## Exercise B — Jira
+> "Look at the 'Demo Defects' project in Jira. Summarise by severity, flag any S1, and draft a
 > one-line status for each open item."
 → Claude reads your live task list.
 

@@ -3,7 +3,7 @@
 
 **Format:** fully hands-on. Theory was covered Day 1. Today every participant *does* each task.
 **Assumes:** each participant has Claude Desktop + a plan supporting Cowork, Connectors, Code, Dispatch and Routines, and is signed in.
-**Connectors used:** Google Drive, ClickUp, Gmail (sandbox / non-production only).
+**Connectors used:** Google Drive, Jira, Gmail (sandbox / non-production only).
 **Sample files:** in `Day2_Handson/taskNN_.../` — each task folder has an `EXERCISE.md` and any data.
 
 > **Golden rules for the room (say up front):** no real customer data — generate synthetic;
@@ -21,7 +21,7 @@
 | 3 | 11:05 | Chat Projects | Projects + knowledge + memory | `task03_projects` |
 | 4 | 11:40 | Artifacts | Interactive + publishable | `task04_artifacts` |
 | — | 12:10 | Break | — | — |
-| 5 | 12:20 | Connectors | Drive / ClickUp / Gmail | `task05_connectors` |
+| 5 | 12:20 | Connectors | Drive / Jira / Gmail | `task05_connectors` |
 | 6 | 12:50 | Skills | Built-in + custom skill | `task06_skills` |
 | — | 13:20 | Lunch | — | — |
 | 7 | 14:00 | Cowork | Local folder + context + schedule | `task07_cowork` |
@@ -41,7 +41,7 @@ Buffer is built in; if a task runs long, the model-comparison and dispatch tasks
 
 ## Pre-flight (do before 10:00)
 - [ ] Stage Google Drive folder **"Tristha Demo Specs"** with the two files in `task05_connectors/gdrive_files_to_stage/`.
-- [ ] Create ClickUp list **"Demo Defects"** with 3–4 rows from `task04_artifacts/defects_export.csv`.
+- [ ] Create a Jira project **"Demo Defects"** with 3–4 issues from `task04_artifacts/defects_export.csv`.
 - [ ] Have a Gmail thread **"UAT Status — Demo Bank"** ready.
 - [ ] Copy the `Day2_Handson` folder to each participant machine (or share via Drive) so local-folder tasks work.
 - [ ] Confirm everyone can open Claude Desktop and reach claude.ai.
@@ -104,11 +104,11 @@ Files to use: `project_instructions.md`, `test_case_template.csv`, `severity_pri
 ---
 
 # TASK 5 — Connectors under a Project  (30 min)
-**Feature:** Drive, ClickUp, Gmail. **File:** `task05_connectors/EXERCISE.md`
+**Feature:** Drive, Jira, Gmail. **File:** `task05_connectors/EXERCISE.md`
 
 **The aha:** Claude works from your live tools, not pasted text.
 
-**Run:** enable the three connectors on the Project. A) Drive → read staged UPI spec, generate scenarios. B) ClickUp → summarise "Demo Defects". C) Gmail → draft a reply to the "UAT Status" thread (draft only).
+**Run:** enable the three connectors on the Project. A) Drive → read staged UPI spec, generate scenarios. B) Jira → summarise "Demo Defects". C) Gmail → draft a reply to the "UAT Status" thread (draft only).
 **Say clearly:** admin-approved, permission-scoped, sandbox only; Claude drafts, you send.
 **BFSI tie:** read the spec where it lives, pull defects from the tracker, draft the client email.
 
@@ -162,7 +162,7 @@ Files to use: `project_instructions.md`, `test_case_template.csv`, `severity_pri
 
 **The aha:** a saved page that re-queries your data every time it opens (vs Task 4's snapshot).
 
-**Run:** in Cowork, build a live QA dashboard reading the ClickUp "Demo Defects" list; change a defect, hit Reload, watch it update.
+**Run:** in Cowork, build a live QA dashboard reading the Jira "Demo Defects" project; change a defect, hit Reload, watch it update.
 **BFSI tie:** a standing "test status" page that's always current — no rebuilding dashboards.
 
 ---

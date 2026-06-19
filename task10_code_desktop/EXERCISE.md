@@ -26,7 +26,7 @@ Expected finds:
 > approved transaction is declined with 65. Run them and show the results."
 
 ## Part D — Generate a developer-ready change request
-> "Write a short change request I can paste into ClickUp: what was wrong, the fix, and the test
+> "Write a short change request I can paste into Jira: what was wrong, the fix, and the test
 > evidence."
 
 ## Discuss

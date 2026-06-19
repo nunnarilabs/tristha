@@ -26,7 +26,7 @@ https://connect.composio.dev/mcp
 ```
 
 ## Before you start (pre-flight)
-1. Stage the Drive folder, ClickUp list, and Gmail thread (see run sheet pre-flight).
+1. Stage the Drive folder, Jira project, and Gmail thread (see run sheet pre-flight).
 2. Copy this whole folder to each participant's machine (local-folder tasks need it).
 3. Ground rules: synthetic data only, human review, sandbox connectors.
 
